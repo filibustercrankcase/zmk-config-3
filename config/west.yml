@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: okke-formsma
-      url-base: https://github.com/okke-formsma
+       name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: okke-formsma
-      revision: sticky-hold
+      remote: petejohanson
+      revision: core/zephyr-27-upgrade
       import: app/west.yml
   self:
     path: config
